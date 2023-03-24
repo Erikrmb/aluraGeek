@@ -1,0 +1,70 @@
+.navegacao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: static;
+    width: 100%;
+    height: 115px;
+    background: var(--branco);
+}
+
+.navegacao__pesquisa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 8px;
+    position: static;
+    width: 40%;
+    height: 40px;
+    left: calc(50% - 393px/2 + 104px);
+    top: 5px;
+    background: var(--cinza-principal);
+    border-radius: 20px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 32px;
+}
+
+.botao__navegacao{
+    margin-right: 10%;
+}
+
+.navegacao__texto{
+    position: static;
+    width: 159px;
+    height: 16px;
+    left: calc(50% - 159px/2 - 85px);
+    top: 0px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.navegacao__pesquisa--texto{
+    width: 90%;
+    border-style: none;
+    background-color: var(--preto-secundario);
+    font-family: var(--fonte-familia);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;  
+    padding-left: 10px;
+}
+
+navegacao__pesquisa--lupa{
+    text-align: end;
+}
+
+.navegacao__imagem{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+
